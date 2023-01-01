@@ -26,7 +26,7 @@ app.post('/users/:email', async (req, res) => {
     await Mongodb.connect(connectionString, async (err, client) => {
         if (err) res.send("Error");
         else {
-            pr(req)
+
             if (req.email && req.body.name && req.body.phone) {
 
 
@@ -58,7 +58,7 @@ app.post('/users/:email', async (req, res) => {
 });
 //Get a specific user
 app.get('/users/:email', async (req, res) => {
-    pr(req.email);
+
 
     await Mongodb.connect(connectionString, async (err, client) => {
         if (err) res.send("Error");
