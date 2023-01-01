@@ -11,7 +11,7 @@ const connectionString = 'mongodb://127.0.0.1:27017';
 const pr = console.log;
 
 //const client = new Mongodb(connectionString);
-//app.use(bodyParser.json());
+app.use(bodyParser.json());
 app.use(cors());
 app.param('email', (req, res, next, email) => {
 
