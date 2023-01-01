@@ -1,6 +1,7 @@
 # task-4-rest-api-321
 
 ## How to use it 
+#### You should have mongodb installed and running on your machine
 ### For the first time run
 ```
 npm i
