@@ -1,4 +1,4 @@
-# task-4-rest-api-321
+# Task-4-rest-api
 
 ## How to use it 
 #### You should have mongodb installed and running on your machine
